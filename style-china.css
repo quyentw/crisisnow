@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&display=swap");
+
+body{
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif black;
+    }
+    
+h1{
+    background-color:black;
+    height: 10px;
+    margin: 0;
+    left:0;
+    width: 100%;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: none;
+}
+    
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    color:whitesmoke;
+    font-size: 70px;
+    padding-top: 80px;
+    padding-bottom:100px;
+    text-align: center;
+}
+    
+
+.top{
+    padding:250px;
+    background-image: url(mask2.jpeg);
+    opacity: 0.9;
+    background-size: cover;
+}
+    /* NAV BAR CSS*/
+    .navbar {
+        overflow: hidden;
+        background-color: #1b1c1e;
+        margin:0;
+        padding:0;
+
+      }
+    .navbar a, i{
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 100px;
+        text-decoration: none;
+        width: 150px;
+        display: inline-block;
+        justify-content: space-between;
+        
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight: 100;
+          text-transform: uppercase;
+          letter-spacing: 0.3em;
+          word-spacing: 0.4em;
+    }
+    
+    button{
+        font-size: 16px;
+        color: white;
+        padding: 14px 100px;
+        text-decoration: none;
+        
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight: 100;
+          text-transform: uppercase;
+          letter-spacing: 0.3em;
+          word-spacing: 0.4em;
+          border-right: 1px solid #464646;
+    }
+      
+    .dropdown {
+        float: left;
+        overflow: hidden;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        text-align: center;
+        width: 350px;
+        height:50px;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color:  rgb(160, 187, 189);
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #1b1c1e;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        width: 350px;
+      }
+      
+    .dropdown-content a{
+        float: none;
+        color: white;
+        padding: 12px 100px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+      
+      .dropdown-content a:hover {
+        background-color:  rgb(160, 187, 189);
+        margin: 10px  rgb(160, 187, 189);
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .navbar a:active{
+          color: rgb(18, 102, 95);
+      }
+    /* END OF NAVBAR CSS */
+    
+    /* footer CSS */
+    footer{ 
+        overflow: hidden;
+        width:100%;
+        justify-content: flex-start;
+        background-color: black;
+        padding: 10px;
+        color:white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100;
+    }
+    
+    .copyright{
+        margin-bottom: 0;
+    }
+    
+    .cfgfooter{
+        margin-top: 5px;
+    }
+    
+    /*social media icons CSS */
+    .socials{
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        margin-right:20px;
+        padding-top: 10px;
+        padding-bottom: 0;
+        overflow: hidden;
+    }
+    
+    .fbicon:hover {
+        opacity: 0.7;
+    }
+    
+    .instaicon:hover {
+        opacity: 0.7;
+    }
+    
+    .ticon:hover {
+        opacity: 0.7;
+    }
+    
+
+    /* Images CSS */
+    .ccontainer {
+        position: relative;
+        text-align: center;
+        background-image: url(uyghur.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .china-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+.china-box{
+    background-color: #e6e6e6;
+    line-height: 1.2em;
+    padding: 5px 100px;
+}
+
+.china-box h3{
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(68, 2, 2);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.china-box p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.poignant{
+    text-shadow: 2px 2px 5px rgb(87, 0, 0);
+    color: white;
+}
+
+/* BOXES CSS */
+
+@media(min-width:768px){
+    .container-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container-1 div{
+        border: 1px #dfdfdf solid;
+        padding: 30px 30px;
+        justify-content: space-between;
+        flex-basis: 28%;
+        height: 350px;
+    }
+}
+
+@media(max-width:767px){
+    .container-1 div{
+        padding: 50px;
+        justify-content: center;
+    }
+}
+
+.container-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-1 a:hover{
+    color: rgb(102, 18, 18);
+}
+
+.container-1 a:visited{
+    color: none;
+}
+
+.box-1, .box-2, .box-3{
+    color: white;
+    background-color: rgb(185, 122, 122);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px;
+}
+
+/*
+.box-1{
+    flex:1;
+    order:1;
+}
+
+.box-2{
+    flex:1;
+    order:2;
+}
+
+.box-3{
+    flex:1;
+    order:3;
+}
+*/
+
+/* FOOTER CSS */
+
+.subscribe{
+    text-align: center;
+}
+
+label{
+    margin: 0px 30px;
+    margin-bottom:10px;
+}
+
+input{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.footerbutton{
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px 20px;
+    width:300px;
+    text-align: center;
+    cursor: pointer;
+}
