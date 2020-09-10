@@ -336,3 +336,13 @@ input{
     text-align: center;
     cursor: pointer;
 }
+
+.bodyWrap {
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .yemen-text {
+        transform: translate(-50%, 200%);
+    }
+}
